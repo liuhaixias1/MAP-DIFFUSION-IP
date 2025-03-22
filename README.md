@@ -13,7 +13,7 @@ MAP-based method that incorporates a Gaussian-type prior of natural images. This
 capture the intrinsic properties of the data, leading to improved performance. Numerical results demonstrate that
 our method preserves contents more effectively compared to state-of-the-art methods-for example, maintaining the
 structure of glasses in super-resolution tasks and producing more coherent results in the neighborhood of masked
-regions during inpainting. Our numerical implementation is available at .
+regions during inpainting. Our numerical implementation is available at \url{https://github.com/liuhaixias1/MAP-DIFFUSION-IP}.
 -----------------------------------------------------------------------------------------
 
 ## Prerequisites
