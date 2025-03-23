@@ -3,7 +3,7 @@
 [MAP-based Problem-Agnostic Diffusion Model for Inverse Problems](https://arxiv.org/abs/2501.15128)
 
 
-## Abstract
+# Abstract
 Diffusion models have indeed shown great promise in solving inverse problems in image processing. In this paper,
 we propose a novel, problem-agnostic diffusion model called the maximum a posteriori (MAP)-based guided term
 estimation method for inverse problems. To leverage unconditionally pretrained diffusion models to address conditional
