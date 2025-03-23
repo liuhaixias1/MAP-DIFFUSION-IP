@@ -62,7 +62,7 @@ python3 main.py \
 --task_config={TASK-CONFIG};
 --save_dir './saved_results'
 ```
-## You may need to change parameters for coffa, coffb and coffc, where coffa and coffb are set in the file diffusion_config.yaml, coffc is in guided_diffusion/condition_methods.py
+ **Note:** You may need to change parameters for coffa, coffb and coffc, where coffa and coffb are set in the file diffusion_config.yaml, coffc is in guided_diffusion/condition_methods.py
 
 
 ## Possible model configurations
