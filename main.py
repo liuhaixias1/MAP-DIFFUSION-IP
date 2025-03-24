@@ -217,11 +217,11 @@ def main():
 
         
         # General-Purpose Posterior Sampling via MAP-based Problem-Agnostic diffusion model
-        DMPS_start_time = time.time()
+        map_start_time = time.time()
         x_start = torch.randn(ref_img.shape, device=device).requires_grad_()
         sample = sample_fn(x_start=x_start, measurement=y_n, H_funcs=H_funcs, noise_std = noiser.sigma, record=True, save_root=out_path)
-        DMPS_end_time = time.time()
-        print('MAP running time: {}'.format(DMPS_end_time - DMPS_start_time))
+        map_end_time = time.time()
+        print('MAP running time: {}'.format(map_end_time - map_start_time))
         psnr = peak_signal_noise_ratio(ref_img.cpu().numpy(),sample.cpu().numpy())
         psnr_results.append([psnr])
         print('PSNR: {}'.format(psnr))
