@@ -400,7 +400,7 @@ class DDPM(SpacedDiffusion):
 
 @register_sampler(name='ddim')
 class DDIM(SpacedDiffusion):
-    def p_sample(self, model, x, t, eta=0.0):
+    def p_sample(self, model, x, t, eta=1.0):
         out = self.p_mean_variance(model, x, t)
         
         eps = self.predict_eps_from_x_start(x, t, out['pred_xstart'])
