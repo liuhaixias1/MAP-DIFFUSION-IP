@@ -89,7 +89,7 @@ If you find the code useful for your research, please consider citing as
 ```
 @article{tao2025map,
   title={MAP-based Problem-Agnostic Diffusion Model for Inverse Problems},
-  author={Pingping Tao and Haixia Liu and Jing Su and Xiaochen Yang},
+  author={Pingping Tao and Haixia Liu and Jing Su},
   journal={arXiv preprint arXiv:/2501.15128},
   year={2025}
 }
@@ -108,3 +108,4 @@ This repo is developed based on [DMPS code](https://github.com/mengxiangming/dmp
 }
 
 ```
+
